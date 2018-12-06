@@ -1,4 +1,7 @@
 # DingtalkNotice
+#### 介绍
+这是一个python写的按照农历/阴历生日 推送 钉钉消息提醒的程序。很好玩。
+###### 功能 
 
 #### 环境：python3.6
 
@@ -18,7 +21,7 @@
 #### 详细/自定义使用步骤：
 1.进入birthday_notice.py 修改第16行access_token为你的access_token，access_token哪里来，参照https://open-doc.dingtalk.com/docs/doc.htm?treeId=257&articleId=105735&docType=1
 
-2.打开data.csv添加寿星生日列表：姓名,月,日。以英文逗号隔开，多个寿星换行。注意“月日”格式为“1”型，不是“01”型。
+2.打开data.csv添加寿星的农历/阴历生日列表：姓名,月,日。记住是农历的哦！！以英文逗号隔开，多个寿星换行。注意“月日”格式为“1”型，不是“01”型。
 
 3.打开run.py修改“schedule.every().day.at("09:02").do(run)”自定义每天推送消息时间；
   及命中生日时间范围“birthdayNotice_job(bri_name,int(bri_mon),int(bri_day),futureDays=5)”中的futureDays字段。
