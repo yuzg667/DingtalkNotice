@@ -13,7 +13,7 @@ from differ_days import date_part
 import datetime
 
 # 初始化机器人小丁
-webhook = 'https://oapi.dingtalk.com/robot/send?access_token=f6a1025b57719fbd2b1bf5d9b279d7b233bb59de20335890d46f60603d4817ce'  #小号
+webhook = 'https://oapi.dingtalk.com/robot/send?access_token=7c833de5d1f77ee3b24ad6871dd0a5bddf91ab58e4331ae2b326d6f510d90420'  #填写你自己创建的机器人
 xiaoding = DingtalkChatbot(webhook)
 
 ymc = ["11", "12", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10" ]
