@@ -7,7 +7,7 @@
 
 2.安装依赖包，命令：pip install requestments.txt
 
-#### 快速使用(可进入钉钉群查看推送效果http://ww1.sinaimg.cn/large/7db06aably1fxx6685atxj20b50jl3zx.jpg)：
+#### 快速使用(可进入钉钉群查看推送效果http://ww1.sinaimg.cn/large/7db06aably1fxx6ax9a4fj20ay0jrwfw.jpg)：
 1.打开run.py修改“schedule.every().day.at("09:02").do(run)”自定义每天推送消息时间；
   
 2.运行‘python run.py’  大功告成
