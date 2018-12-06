@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
  
-#https://blog.csdn.net/Tester_xjp/article/details/80832431
 from birthday_notice import birthdayNotice_job
 import schedule
 import time
