@@ -24,7 +24,7 @@
 
 3.打开run.py
 
-a.修改“for i in range(24)”中的数字为你的寿星个数(行数)
+a.修改“for i in range(24)”中的数字为你的寿星个数(data.csv的行数)
 
 b.修改“schedule.every().day.at("09:02").do(run)”自定义每天推送消息时间；
 
